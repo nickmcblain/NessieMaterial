@@ -13,3 +13,5 @@ An example application for using the Capital One UK hackathon API
 'npm install'
 3. Install bower components
 'bower install'
+4. Copy your API key from http://api.reimaginebanking.com/ into the app.js
+5. Run gulp and see the app running on localhost:9000

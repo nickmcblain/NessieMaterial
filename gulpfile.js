@@ -38,7 +38,7 @@ gulp.task('html', function() {
 // Compile scripts
 gulp.task('scripts', function() {
 	gulp.src('./src/assets/js/**/*.js')
-		.pipe(concat('all.js'))
+		.pipe(concat('all.min.js'))
 		.pipe(gulp.dest('./dist/assets/js'))
 		.pipe(connect.reload());
 });
